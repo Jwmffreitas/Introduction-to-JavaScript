@@ -1,5 +1,42 @@
-var d = new Date();
-alert(d.getMinutes());
+/* function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Babyshark";
+    alert("Obrigado por clicar!")*/
+}
+
+/* function redirecionar(){
+    window.open("https://www.youtube.com")
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    alert("trocar texto");
+}
+
+function voltar (){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+} */
+
+
+/*function soma(n1, n2){
+    return n1 + n2;
+}
+
+function validaIdade(idade){
+    if (idade >=18){
+        var validar = true
+    }else{
+        var validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual a sua idade?")
+console.log(validaIdade(idade)); */
+
+/*alert(soma(5, 10));*/
+
+/*var d = new Date();
+alert(d.getMinutes()); */
 
 /* var count;
 for(count=0; count <=5; count++){

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#lideres{
+    padding: 20px;
+    display: flex;
+    color: white;
+}
+
+.xavier {
+    text-align: center;
+    width: 50%;
+}
+
+.xavier img {
+    margin: 10px;
+    width: 400px;
+}
+
+.magnus {
+    text-align: center;
+    width: 50%;
+}
+
+.magnus img {
+    margin: 10px;
+    width: 400px;
+}

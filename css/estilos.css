@@ -41,3 +41,24 @@ header {
     margin: 10px;
     width: 400px;
 }
+
+#mutantes {
+    text-align: center;
+    color: white;
+}
+
+.list {
+    padding: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    width: 60px;
+}
+
+#favorit {
+    margin-top: 30px;
+}

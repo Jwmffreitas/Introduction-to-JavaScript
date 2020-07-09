@@ -62,3 +62,9 @@ button {
 #favorit {
     margin-top: 30px;
 }
+
+.wolv {
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 20%;
+}

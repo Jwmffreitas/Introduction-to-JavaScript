@@ -108,8 +108,23 @@ input {
 }
 
 .wolv {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 300px;
     height: 400px;
     border-radius: 50%;
+    box-shadow: black 0px 0px 5px;
+}
+
+.ag {
+    display: flex;
+    justify-content: center;
+}
+
+#res {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
 }

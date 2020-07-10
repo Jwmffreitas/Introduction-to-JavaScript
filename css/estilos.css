@@ -128,3 +128,11 @@ input {
     color: black;
     padding: 10px;
 }
+
+#res h1 {
+    font-family: Arial;
+}
+
+#res h2 {
+    margin-bottom: 8px;
+}

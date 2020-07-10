@@ -24,7 +24,7 @@
         res.innerHTML = `Por favor, digite um número entre 1 e 5`
       }else {
         res.innerHTML = `<h3>Seu mutante favorito é: </br> </br><h1>${final}</h1></h3>`
-        res.innerHTML += `<img class="wolv" src="${finalimg}" alt=""></img> <h1>Habilidades:</h1>`
+        res.innerHTML += `<img class="wolv" src="${finalimg}" alt=""></img> <h2>Habilidades:</h2>`
       }
       if(fav.value == '1') {
         res.innerHTML += `${habw[0]} </br> ${habw[1]} </br> ${habw[2]} </br> ${habw[3]} </br> ${habw[4]}`

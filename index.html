@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gene-X</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="JS/main.js"></script>
 </head>
 <header>
@@ -22,14 +23,15 @@
     </section> -->
     <section id="mutantes">
         <div class="list">
-        <ul class="mut">
-            <p><strong>1.</strong> Wolverine</p>
-            <p><strong>2.</strong> Cyclops</p>
-            <p><strong>3.</strong> Jean Grey</p>
-            <p><strong>4.</strong> Rogue</p>
-            <p><strong>5.</strong> Iceman</p>
-        </ul>
-        <p>Número do mutante: <input type="number" name="" id="favorit"> <button onclick="mutante()">Enviar</button></p>
+            <select class="w3-select" id="favorit" style="width: 180px; height: 25px; padding: 0px;"> 
+                <option value="1">Wolverine</option>
+                <option value="2">Cyclops</option>
+                <option value="3">Jean Grey</option>
+                <option value="4">Vampira</option>
+                <option value="5">Homem de Gelo</option>
+                </select>
+                <button onclick="mutante()">Enviar</button>
+        <!--<p>Número do mutante: <input type="number" name="" id="favorit">-->
         </div>
         <div class="ag">
         <div id="res">

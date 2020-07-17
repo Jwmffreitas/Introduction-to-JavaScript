@@ -136,3 +136,9 @@ input {
 #res h2 {
     margin-bottom: 8px;
 }
+
+.sel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

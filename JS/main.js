@@ -23,7 +23,7 @@
       if(fav.value == '' || Number(fav.value > 5)) {
         res.innerHTML = `Por favor, digite um número entre 1 e 5`
       }else {
-        res.innerHTML = `<h3>Seu mutante favorito é: </br> </br><h1>${final}</h1></h3>`
+        res.innerHTML = `<h3>Seu mutante favorito é: </br><h1>${final}</h1></h3>`
         res.innerHTML += `<img class="wolv" src="${finalimg}" alt=""></img> <h2>Habilidades:</h2>`
       }
       if(fav.value == '1') {
@@ -37,5 +37,5 @@
       }else if (fav.value == '5') {
         res.innerHTML += `${habi[0]} </br> ${habi[1]} </br> ${habi[2]} </br> ${habi[3]}`
       }
-      document.getElementById('favorit').value = ""
+      // document.getElementById('favorit').value = ""
   }

@@ -4,35 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Memory Game</title>
 </head>
 <body>
     <section>
         <h1>Memory Game</h1>
         <div class="mesa">
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
-            </div>
-            <div class="card">
-                <img src="img/JL.png" alt="">
+            <div class="card" id="c1" name="Batman" onclick="virarCard('#b1')">
+                <div class="cardB">
+                    <img src="img/JL.png" alt="">
+                </div>
+                <div class="cardF">
+                    <img src="img/batman.png" alt="">
+                </div>
             </div>
         </div>
     </section>

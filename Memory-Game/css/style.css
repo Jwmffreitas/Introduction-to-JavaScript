@@ -27,13 +27,24 @@ section h1 {
 .mesa {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 200px;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 10px;
 }
 
 .card {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    width: 200px;
+}
+
+.card:active {
+    transform: rotateY(180deg);
+}
+
+.cardB, .cardF {
+    position: absolute;
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
@@ -41,12 +52,19 @@ section h1 {
     width: 200px;
     height: 300px;
     transition: 500ms;
-}
-.card:hover {
-    transform: scale(1.1);
-    box-shadow: black 0px 1px 10px;
+    backface-visibility: hidden;
 }
 
-.card img {
+.cardF {
+    transition: 0s;
+    transform: rotateY(180deg);
+}
+
+/*.cardB:hover, .cardF:hover {
+    transform: scale(1.1);
+    box-shadow: black 0px 1px 10px;
+}*/
+
+.cardB img, .cardF img {
     width: 100px;
 }

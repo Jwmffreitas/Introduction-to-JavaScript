@@ -27,7 +27,7 @@ section h1 {
 .mesa {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 900px;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 10px;
@@ -57,6 +57,9 @@ section h1 {
 
 .cardF {
     transition: 0s;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     transform: rotateY(180deg);
 }
 
@@ -65,6 +68,10 @@ section h1 {
     box-shadow: black 0px 1px 10px;
 }*/
 
-.cardB img, .cardF img {
+.cardB img {
     width: 100px;
+}
+
+.cardF img {
+    width: 180px;
 }

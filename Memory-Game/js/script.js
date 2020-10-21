@@ -25,6 +25,7 @@ function virarCard(Card) {
             Acertos = Acertos + 1
             c1 = ''
             c2 = ''
+            verificarAcertos()
         }else {
             setTimeout(() => {
                 $(id1).css('transform', 'rotateY(0deg)')
@@ -33,7 +34,15 @@ function virarCard(Card) {
                 c2 = ''
                 id1 = ''
                 id2 = ''
-            }, 1500)
+            }, 1000)
         }
+    }
+}
+
+function verificarAcertos() {
+    if(Acertos >= 4) {
+        setTimeout(() => {
+            console.log('Parabéns!')
+        }, 1000);
     }
 }

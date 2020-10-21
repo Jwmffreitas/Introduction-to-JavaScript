@@ -28,6 +28,7 @@ section h1 {
     display: flex;
     justify-content: space-between;
     width: 900px;
+    height: 650px;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 10px;

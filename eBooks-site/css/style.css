@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    margin: 10px;
+}
+
+.menu {
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+.home {
+    font-size: 20px;
+}
+
+.menuu {
+    display: grid;
+    justify-content: right;
+    align-items: center;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    top: -130px;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+#menu li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.modal {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    position: fixed;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+}
+
+.destaque {
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 2px;
+    margin: 10px;
+    width: 290px;
+    box-shadow: grey 0px 0px 5px;
+    margin-top: 15px;
+}
+
+.destaque img {
+    width: 260px;
+    margin: 5px;
+    margin-bottom: 12px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.livrod {
+    display: grid;
+    justify-content: center;
+}
+
+#sinopselivro0 {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    margin-top:-150px;
+    margin-left:-150px;
+    padding: 10px;
+    z-index: 10005;
+}
+
+.alta {
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    /* box-shadow: grey 0px 0px 5px; */
+}
+
+.alta img {
+    width: 150px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.livroalta {
+    display: flex;
+    justify-content: center;
+}
+
+#sinopseli {
+    display: none;
+    transition: 1s;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    position: fixed;
+    left: 150%;
+    top: 40vh;
+    margin-top:-150px;
+    margin-left:-150px;
+    padding: 10px;
+    z-index: 10005;
+}
+
+#sinopseli button{
+    position: absolute;
+    left: 62%;
+    top: 100px;
+}
+
+#sinopseli .star{
+    position: absolute;
+    left: 55%;
+    top: 60px;
+    width: 130px;
+    height: 50px;
+}
+
+#sinopseli1 {
+    display: none;
+    transition: 1s;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    position: fixed;
+    left: -50%;
+    top: 40vh;
+    margin-top:-150px;
+    margin-left:-150px;
+    padding: 10px;
+    z-index: 10005;
+}
+
+#sinopseli1 button{
+    position: absolute;
+    left: 62%;
+    top: 100px;
+}
+
+#sinopseli1 .star{
+    position: absolute;
+    left: 62%;
+    top: 60px;
+    width: 150px;
+    height: 50px;
+}
+
+#sinopseli00 {
+    display: none;
+    transition: 1s;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    position: fixed;
+    left: 150%;
+    top: 40vh;
+    margin-top:-150px;
+    margin-left:-150px;
+    padding: 10px;
+    z-index: 10005;
+}
+
+#sinopseli00 button{
+    position: absolute;
+    left: 62%;
+    top: 100px;
+}
+
+#sinopseli00 .star{
+    position: absolute;
+    left: 55%;
+    top: 60px;
+    width: 130px;
+    height: 50px;
+}
+
+.autores {
+    text-align: center;
+}
+
+.escritores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.autores img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.a1 {
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: grey 0px 0px 5px;
+    padding-top: 5px;
+}
+
+.a2 {
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: grey 0px 0px 5px;
+    padding-top: 5px;
+}
+
+#a1 {
+    display: none;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    position: fixed;
+    border-radius: 10px;
+    bottom: -100%;
+    left: 50%;
+    transition: 1s;
+    padding: 5px;
+    z-index: 10001;
+    margin-left: -150px;
+    text-align: center;
+}
+
+#a2 {
+    display: none;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    position: fixed;
+    border-radius: 10px;
+    bottom: -100%;
+    left: 50%;
+    transition: 1s;
+    padding: 5px;
+    z-index: 10001;
+    margin-left:-150px;
+    text-align: center;
+}
+
+.obras img {
+    width: 120px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.perfil {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.perf {
+    display: flex;
+}

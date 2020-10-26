@@ -6,6 +6,7 @@ var id2
 var c1
 var c2
 var c
+var totalPoint = 0
 var Batman = `<div class="card" id="#contador#" name="Batman" onclick="virarCard('#'+'#contador#')">
 <div class="cardB">
     <img src="img/JL.png" alt="">
@@ -75,10 +76,12 @@ function virarCard(Card) {
 }
 
 function verificarAcertos() {
+    document.getElementById('acertos').innerHTML = `<h1>Hits<span style="font-family: comic; font-size: 30px;">: ${totalPoint + Acertos}</span></h1>`
     if(Acertos >= 4) {
         setTimeout(() => {
             console.log('Parabéns!')
-        }, 1000);
+            document.getElementById('parabens').style.display = "flex"
+        }, 500);
     }
 }
 
@@ -98,5 +101,20 @@ function Aleatorio() {
         //console.log(str)
         document.getElementById('mesa').innerHTML += str.replace('#contador#', `d${c}`)
     }
+    document.getElementById('acertos').innerHTML += `<h1>Hits<span style="font-family: comic; font-size: 30px">: ${totalPoint + Acertos}</span></h1>`
 
+
+}
+
+function Parabens(x) {
+    if(x == 'continuar') {
+        document.getElementById('parabens').style.display = "none"
+        document.getElementById('mesa').innerHTML = ''
+        document.getElementById('acertos').innerHTML = ''
+        totalPoint = totalPoint + Acertos
+        Acertos = 0
+        Aleatorio()
+    }else if(x == 'cancelar') {
+        document.getElementById('parabens').style.display = "none"
+    }
 }

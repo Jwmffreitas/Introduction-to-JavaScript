@@ -26,6 +26,8 @@ Resultado:
 
  - [x] Saiu conforme o esperado;
  - [x] Agregou o conhecimento buscado;
+
+Veja funcionando => https://jwmffreitas.github.io/Introduction-to-JavaScript/Select-Mutant/index.html
  
  ## 2. Projeto - Memory Game
 ![](https://imgur.com/shlfyZ8.png)
@@ -47,5 +49,4 @@ Resultado:
  - [x] Agregou o conhecimento buscado;
  - [x] **É divertido!** e um pouco fácil. ^^
 
-
- 
+Veja funcionando => https://jwmffreitas.github.io/Introduction-to-JavaScript/Memory-Game/index.html
